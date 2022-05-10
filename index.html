@@ -7,10 +7,17 @@
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title> Portifólio - GitHub </title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <navbar>
-            <ul>
+        <nav class="menu">
+            <ul class="menu">
                 <li>
                     <a href="#formacao"> Formação </a>
                 </li>
@@ -20,20 +27,20 @@
                 <li>
                     <a href="#contato">Contato</a>
                 </li>
-            </ul>>
-        </navbar>
+            </ul>
+        </nav>
         <!-- main é a seção principal para acessibilidade -->
         <main>
             <figure>
                 <!-- wisht é largura e height é altura -->
                 <img src="./images/fotogabi.jpg" alt="foto de perfil da Gabriela Lopes" width="200px"/>
             </figure>
-            <h1>Gabriela Lopes</h1>
-            <h2>Desenvolvedora em desenvolvimento</h2>
-            <p> Estou em transição de carreira, sou trancista e estudo front - end.</p>
+            <h1 class="title">Gabriela Lopes</h1>
+            <h2 class="subtitle">Desenvolvedora em desenvolvimento</h2>
+            <p class="intro"> Estou em transição de carreira, sou trancista e estudo front - end.</p>
         </main>
         <!-- section são as seçoes secundarias -->
-        <section id="formacao">
+        <section id="formacao" class="bg-dark">
             <h1>Formação</h1>
             <ul>
                 <li>
@@ -43,7 +50,7 @@
                              Link do curso 
                             </a>
                         </h4>
-                    <p>texto sobre o curso</p>
+                    <p class="p-section">texto sobre o curso</p>
                 </li>
                 <li>
                     <h4> Curso de Java </h4>
@@ -56,12 +63,12 @@
                 </li>
             </ul>
         </section>
-        <section id="portifolio"> 
+        <section id="portifolio" class="bg-dark" > 
             <h1>Portfólio</h1>
             <ul>
                 <li>
                     <h4>Mulheres que fazem história</h4>
-                    <p>Ux</p>
+                    <p class="p-section">Ux</p>
                     <h4>
                         <a href="http://mulheres.com" target="_blank">
                             Link do projeto
@@ -82,7 +89,7 @@
             </ul>
         </section>
         <!-- footer é a tag para o rodapé -->
-        <footer id="contato"> 
+        <footer id="contato" class="bg-dark"> 
             <div>
                 <span class="fas fa-envelope-square"></span>
                 <a href="mailto:glopes.p09@gmail.com">glopes.p09@gmail.com</a>

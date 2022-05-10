@@ -1,0 +1,107 @@
+   /* tamanho da letra do texto 
+    font-size: 25px;
+} */
+
+/* TODOS OS PARAGRAFOS */
+/* section p {
+    font-size: 20px;
+    color: rgb(116, 26, 116);
+    background-color: rgb(144, 243, 144);
+}
+ */
+
+ /* TODOS OS PRIMEIROS PARAGRAFOS - USA-SE CLASS NOS P */
+
+ /* .p-section {
+    font-size: 20px;
+    color: rgb(116, 26, 116);
+    background-color: rgb(144, 243, 144);  
+ } */
+
+ /* body {
+    background-color: orange;
+}
+
+.menu {
+    background-color: green;
+}
+.class {
+
+}
+
+#id {
+
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-dark a {
+    color: white;
+}
+
+
+nav {
+    background-color: red;
+    border: 6px dotted black;
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* espessura da font */
+    /* font-weight: 700; */
+    /* tamanho da finte */
+   /*  font-size: 25px; */
+    /* distancia entre as linhas ou espacamento */
+    /* line-height:2em; */
+    
+/* }
+p{
+    font-size: 2em;
+}  */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+li{
+    list-style: none;
+}
+.menu {
+    background-color: #938DF8
+
+}
+.menu li {
+    list-style: none;
+}
+.menu a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        text-decoration: none;
+}
+.title {
+    font-weight: 700;
+    font-size:36px;
+    color: #938DF8;
+
+}
+.subtitle {
+    font-size: 24px;
+    color: #EDEAEA;
+}
+.intro{
+    font-family: 'ABeezee', sans-serif;
+    color: #000000;
+    font-size:16px;
+
+}
+section h1 {
+        font-size: 24px;
+        color: #49BFB3;
+
+}
