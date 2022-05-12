@@ -17,7 +17,7 @@
     </head>
     <body>
         <nav class="menu">
-            <ul class="menu">
+            <ul class="lista-menu">
                 <li>
                     <a href="#formacao"> Formação </a>
                 </li>
@@ -30,8 +30,8 @@
             </ul>
         </nav>
         <!-- main é a seção principal para acessibilidade -->
-        <main>
-            <figure>
+        <main class="intro-content">
+            <figure classs="foto">
                 <!-- wisht é largura e height é altura -->
                 <img src="./images/fotogabi.jpg" alt="foto de perfil da Gabriela Lopes" width="200px"/>
             </figure>
@@ -40,11 +40,12 @@
             <p class="intro"> Estou em transição de carreira, sou trancista e estudo front - end.</p>
         </main>
         <!-- section são as seçoes secundarias -->
-        <section id="formacao" class="bg-dark">
+        <section id="formacao">
+            <div class="conteudo">
             <h1>Formação</h1>
             <ul>
-                <li>
-                    <h4>Curso de  Desenvolvimento</h4>
+                <li class="item">
+                    <h4 class="descricao">Curso de  Desenvolvimento</h4>
                     <h4>
                         <a href="https://minasprogramam.com/" target="_blank">
                              Link do curso 
@@ -52,8 +53,8 @@
                         </h4>
                     <p class="p-section">texto sobre o curso</p>
                 </li>
-                <li>
-                    <h4> Curso de Java </h4>
+                <li class="item">
+                    <h4 class="descricao"> Curso de Java </h4>
                     <h4>
                         <a href="https://www.dio.me/en" target="_blank">
                              Link do curso
@@ -62,12 +63,14 @@
                     <p>texto sobre o curso</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section id="portifolio" class="bg-dark" > 
+        <section id="portifolio"> 
+            <div class="conteudo">
             <h1>Portfólio</h1>
             <ul>
-                <li>
-                    <h4>Mulheres que fazem história</h4>
+                <li class="item">
+                    <h4 class="descricao">Mulheres que fazem história</h4>
                     <p class="p-section">Ux</p>
                     <h4>
                         <a href="http://mulheres.com" target="_blank">
@@ -76,8 +79,8 @@
                     </h4>
                     <p>Texto sobre o projeto</p>
                 </li>
-                <li>
-                    <h4>Portifólio</h4>
+                <li class="item">
+                    <h4 class="descricao">Portifólio</h4>
                     <p>Desenvolvedora web</p>
                     <h4>
                         <a href="http://projetoportifolio.com" target="_blank">
@@ -87,9 +90,10 @@
                     <p>Texto sobre o projeto</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- footer é a tag para o rodapé -->
-        <footer id="contato" class="bg-dark"> 
+        <footer id="contato"> 
             <div>
                 <span class="fas fa-envelope-square"></span>
                 <a href="mailto:glopes.p09@gmail.com">glopes.p09@gmail.com</a>

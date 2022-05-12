@@ -1,68 +1,9 @@
-   /* tamanho da letra do texto 
-    font-size: 25px;
-} */
 
-/* TODOS OS PARAGRAFOS */
-/* section p {
-    font-size: 20px;
-    color: rgb(116, 26, 116);
-    background-color: rgb(144, 243, 144);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
- */
-
- /* TODOS OS PRIMEIROS PARAGRAFOS - USA-SE CLASS NOS P */
-
- /* .p-section {
-    font-size: 20px;
-    color: rgb(116, 26, 116);
-    background-color: rgb(144, 243, 144);  
- } */
-
- /* body {
-    background-color: orange;
-}
-
-.menu {
-    background-color: green;
-}
-.class {
-
-}
-
-#id {
-
-}
-
-.bg-dark {
-    background-color: black;
-    color: white;
-}
-
-.bg-dark a {
-    color: white;
-}
-
-
-nav {
-    background-color: red;
-    border: 6px dotted black;
-    font-size: 25px;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    /* espessura da font */
-    /* font-weight: 700; */
-    /* tamanho da finte */
-   /*  font-size: 25px; */
-    /* distancia entre as linhas ou espacamento */
-    /* line-height:2em; */
-    
-/* }
-p{
-    font-size: 2em;
-}  */
-
 body{
     font-family: 'Open Sans', sans-serif;
 
@@ -72,7 +13,17 @@ li{
 }
 .menu {
     background-color: #938DF8
-
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.lista-menu {
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 20px;
 }
 .menu li {
     list-style: none;
@@ -84,24 +35,86 @@ li{
         color: #ffffff;
         text-decoration: none;
 }
+.foto {
+    border-radius: 70px;
+}
+
+.intro-content {
+    background-color: #EDEAEA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 580px;
+    padding: 100px;
+
+}
+.intro-content figure {
+    margin-bottom: 20px;
+}
 .title {
     font-weight: 700;
     font-size:36px;
     color: #938DF8;
+    margin-bottom: 20px;
 
 }
 .subtitle {
     font-size: 24px;
-    color: #EDEAEA;
+    color: #aaa7a7;
+    margin-bottom: 20px;
 }
 .intro{
     font-family: 'ABeezee', sans-serif;
     color: #000000;
     font-size:16px;
+    max-width: 490;
+    text-align: center;
+    display: flex;
 
 }
 section h1 {
         font-size: 24px;
         color: #49BFB3;
+        margin-right: 50px;
+
+}
+.conteudo {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+   
+}
+#portifolio {
+    background-color: #EDEAEA;
+}
+
+.descricao {
+    font-size:16px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.descricao {
+    color: #828282;
+    padding-top:70px;
+    
+}
+ 
+#contato {
+    background-color: #5A53D8;
+    height: 198px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#contato a{
+    color: #fff;
+    text-decoration: none;
+    
 
 }
