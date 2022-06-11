@@ -10,7 +10,7 @@ Utilizando o for (não for..in nem for..of), faça as seguintes operações:
 
 const notas = [5.1, 0.1, 6.2, 0.6, 7.4, 10];
 
- for(let i=0; i<notas.length; i++) {
+ for(let i=0; i<notas.length; i++)  {
     console.log(notas[i])
 } 
 
