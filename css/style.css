@@ -52,7 +52,7 @@ li{
     margin-bottom: 20px;
 }
 .title {
-    font-weight: 700;
+    font-weight: 700px;
     font-size:36px;
     color: #938DF8;
     margin-bottom: 20px;
@@ -67,7 +67,7 @@ li{
     font-family: 'ABeezee', sans-serif;
     color: #000000;
     font-size:16px;
-    max-width: 490;
+    max-width: 490px;
     text-align: center;
     display: flex;
 
@@ -92,7 +92,7 @@ section h1 {
 .descricao {
     font-size:16px;
     line-height: 22px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 .descricao {
     color: #828282;
@@ -101,7 +101,7 @@ section h1 {
 }
  
 #contato {
-    background-color: #5A53D8;
+    background-color: #938DF8;
     height: 198px;
     padding-left: 50px;
     padding-top: 40px;
